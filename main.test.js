@@ -1,5 +1,7 @@
+import squareIt from "./main.js";
+
 //👉 Write your tests below here:
-// w
+// 
 // We want to check the length of the string (string.length)
 //
 // Test that string is type string
@@ -34,7 +36,7 @@ test(`check that the square of the length of the string is correct`, function(){
 const string = "hello";
 const stringLength = string.length;
 const lengthSquare = stringLength**2
-const actual = lengthSquare
+const actual = squareIt(string)
 //act
 const expected = lengthSquare
 //assert

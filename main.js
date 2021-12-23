@@ -1,5 +1,5 @@
-/* 
-👉 Write your kata here!
-*/
+// CODEWARS //
+// Do not open main.test.js file before solving the Kata :)
 
-//👉 Write the function your CodeWarriors will start with below here:
+//When given a string, return the square of the number of characters in the string
+export default function squareIt(string) {}
